@@ -74,7 +74,7 @@ pip install -r requirements.txt
 
 ### 2. Add manuals
 
-Put one or more PDF manuals in the `manuals/` folder (create it if needed), and make sure `MANUALS_FOLDER` in `ingest.py` points to it:
+Three sample manuals are included in manuals/ for the demo, and make sure `MANUALS_FOLDER` in `ingest.py` points to it:
 
 ```python
 MANUALS_FOLDER = Path("manuals")
